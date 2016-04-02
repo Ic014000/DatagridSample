@@ -1,0 +1,13 @@
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample.csprojResolveAssemblyReference.cache
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\App.g.cs
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample_MarkupCompile.cache
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\MainWindow.g.cs
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample_MarkupCompile.lref
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample.exe
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample.pdb
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\bin\Debug\DataGridSample.exe
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\bin\Debug\DataGridSample.pdb
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\MainWindow.baml
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample.g.resources
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample.Properties.Resources.resources
+C:\Users\bidha\documents\visual studio 2015\Projects\DataGridSample\DataGridSample\obj\Debug\DataGridSample.csproj.GenerateResource.Cache

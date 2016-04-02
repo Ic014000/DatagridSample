@@ -1,0 +1,45 @@
+﻿<Window x:Class="DataGridSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox Content="Show all columns" Name="chkAllColumns" Margin="5" Click="chkAllColumns_Checked">
+            </CheckBox>
+            <RadioButton Margin="5" Name="adjust" GroupName="showScrollBar" Content="Set column width to star" IsChecked="True" Click="adjust_Click">
+            </RadioButton>
+            <RadioButton Margin="5" Name="scroll" GroupName="showScrollBar" Content="Set column width to auto" Click="adjust_Click" >
+            </RadioButton>
+        </StackPanel>
+        <DataGrid Grid.Row="1" Name="myDataGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="*" Header="Col1" Binding="{Binding col1}"/>
+                <DataGridTextColumn Width="*" Header="Col2" Binding="{Binding col2}"/>
+                <DataGridTextColumn Width="*" Header="Col3" Binding="{Binding col3}" />
+                <DataGridTextColumn Width="*" Header="Col4" Binding="{Binding col4}" />
+                <DataGridTextColumn Width="*" Header="Col5" Binding="{Binding col5}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col6" Binding="{Binding col6}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col7" Binding="{Binding col7}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col8" Binding="{Binding col8}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col9" Binding="{Binding col9}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col10" Binding="{Binding col10}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col11" Binding="{Binding col11}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col12" Binding="{Binding col12}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col13" Binding="{Binding col13}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col14" Binding="{Binding col14}" Visibility="Collapsed"/>
+                <DataGridTextColumn Width="*" Header="Col15" Binding="{Binding col15}" Visibility="Collapsed"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock Text="Developed by: Bidhan" Grid.Row="2" Margin="5"></TextBlock>
+    </Grid>
+</Window>
